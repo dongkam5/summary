@@ -20,7 +20,7 @@ http.createServer(async (req,res)=>{
         expires.setMinutes(expires.getMinutes()+5);
         const uniqueInt = Date.now();
         session[uniqueInt]={
-            name,expires,
+            name,expires, 
         };
         console.log(uniqueInt);
         res.writeHead(302,{Location:'/','Set-Cookie': `session=${uniqueInt}; Expires=${expires.toGMTString()}; HttpOnly; Path=/`,});
