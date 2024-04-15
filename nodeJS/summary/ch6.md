@@ -35,4 +35,19 @@
 ## Express의 req,res 객체
     - req.app, req.body , req.cookies, req.ip, req.params, req.qurey, req.signedCookies, req.get(헤더 이름)
     - res.app, res.cookie(키, 값, 옵션), res.clearCookie(키, 값 옵션), res.end, res.json(JSON), res.redirect(주소), res.render(뷰, 데이터) , res.send(데이터), res.sendFile, res.set, res.status
+
+
+## 템플릿 엔진
+
+### 퍼그
+    - JINJA2 템플릿 엔진과 유사 (FLASK, DJANGO에서 사용)
+    - html 표현이 다름
+    - = + - 등의 특수문자 뒤에는 자바스크립트 문법 사용 가능
+    - #{} 내부에서도 자바스크립트 문법 사용가능
+    - 반복문, 조건문 지원
+    - include, extends, block 문법 지원
+
+
+### 넌적스
+    - 파이썬 템플릿엔진 (JINJA2, Twig와 매우 유사)
     
