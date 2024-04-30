@@ -21,3 +21,10 @@
 
 ## MONGO DB CRUD
     - SQL 명령어와 구조는 비슷 (명령어는 확실히 다르다.)
+
+## mongoose
+    - MYSQL의 sequelize에 해당
+    - ODM (Object Document Mapping)
+    - MONGO DB의 불안정성을 보완 (스키마 사용)
+    - MYSQL의 JOIN 기능과 유사한 기능 제공 (populate)
+    
